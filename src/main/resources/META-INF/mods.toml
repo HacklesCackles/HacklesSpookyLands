@@ -29,7 +29,7 @@ displayName="Hackle's more Spooky Lands of Wonder" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="profile.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this mod goes to Bitey the cat." #optional
+credits="Thanks for this mod goes to Bitey the cat for for waking us up to work on it." #optional
 # A text field displayed in the mod UI
 authors="HacklesCackles , MushMuse" #optional
 # Display Test controls the display for your mod in the server connection screen
