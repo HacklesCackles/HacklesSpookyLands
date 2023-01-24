@@ -123,6 +123,10 @@
       "required": false
     },
     {
+      "id": "biomesoplenty:lavender_forest",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:woodland",
       "required": false
     }
