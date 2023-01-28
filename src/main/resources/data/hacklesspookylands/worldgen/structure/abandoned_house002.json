@@ -5,7 +5,7 @@
 
   // the path to the template pool json file to use
 
-   "start_pool": "hacklesspookylands:spider_den001/start_pool",
+   "start_pool": "hacklesspookylands:abandoned_house002/start_pool",
 
   // This is how many pieces away from the starting piece a piece of the structure can spawn
   // Think of it like the length of the branch of the structure
@@ -18,7 +18,7 @@
 
   // The biome tag to use for what biomes that this structure can spawn in"
 
-    "biomes": "#hacklesspookylands:has_structure/spider_den001",
+    "biomes": "#hacklesspookylands:has_structure/abandoned_house002",
 
   // The generation step for when to generate the structure. there are 10 stages you can pick from!
   // This surface structure stage places the structure before plants and ores are generated
@@ -26,11 +26,7 @@
 
     "step": "surface_structures",
 
-<<<<<<< HEAD
-    "terrain_adaptation": "beard_thin",
-=======
-    "terrain_adaptation": "bury",
->>>>>>> 9adb2de1 (New Structures and tweaks)
+    "terrain_adaptation": "none",
 
   // Where to spawn our structure at what y value if project_start_to_heightmap is not present.
   // start_height can be used to spawn at a random fixed y value by doing something like: "max_inclusive": { "below_top": 10 }, "min_inclusive": { "above_bottom": 32 }
@@ -38,7 +34,7 @@
   // So a start height that gives -5 will sink the structure 5 blocks into the terrain. Here, we will spawn this structure 60 blocks above the terrain.
 
   "start_height": {
-    "absolute": -10
+    "absolute": -3
   },
 
   // Makes our sky fan structure take the terrain's top y value and add it to the start_height y value above.
@@ -59,7 +55,7 @@
       "bounding_box": "piece",
       "spawns": [
         {
-          "type": "minecraft:spider",
+          "type": "minecraft:parrot",
           "weight": 1,
           "minCount": 1,
           "maxCount": 4
