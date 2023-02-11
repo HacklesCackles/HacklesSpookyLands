@@ -1,3 +1,5 @@
 {
- // "item.hacklesspookylands.inchworm_spawn_egg": "Inchworm Spawn Egg"
+ "item.hacklesspookylands.inchworm_spawn_egg": "Inchworm Spawn Egg",
+
+ "creativemodetab.spooky": "Spooky"
 }
