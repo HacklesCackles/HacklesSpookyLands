@@ -47,8 +47,6 @@ public class HacklesSpookyLands {
             SpawnPlacements.register(ModEntityTypes.INCHWORM.get(),
                     SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                     Animal::checkAnimalSpawnRules);
-
-
         });
     }
 
