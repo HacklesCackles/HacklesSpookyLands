@@ -26,8 +26,8 @@
   ],
   "spawners": {
     "type": "hacklesspookylands:inchworm",
-    "weight": 150,
-    "minCount": 3,
+    "weight": 6,
+    "minCount": 2,
     "maxCount": 5
   }
 }
