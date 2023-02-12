@@ -32,10 +32,10 @@ public class InchwormEntity extends Animal implements GeoEntity{
 
     public static AttributeSupplier setAttributes() {
         return Animal.createMobAttributes()
-                .add(Attributes.MAX_HEALTH, 20.0D)
+                .add(Attributes.MAX_HEALTH, 10.0D)
                 .add(Attributes.ATTACK_DAMAGE, 3.0f)
                 .add(Attributes.ATTACK_SPEED, 1.0f)
-                .add(Attributes.MOVEMENT_SPEED, 0.4f).build();
+                .add(Attributes.MOVEMENT_SPEED, 0.15f).build();
     }
 
     @Override
@@ -52,17 +52,7 @@ public class InchwormEntity extends Animal implements GeoEntity{
             return PlayState.CONTINUE;
         }
 
-        animationState.getController().setAnimation(RawAnimation.begin().then("animation.inch_worm.idle", Animation.LoopType.LOOP));
-        return PlayState.CONTINUE;
-    }
-
-    private PlayState attackPredicate(AnimationState state) {
-        if(this.swinging && state.getController().getAnimationState().equals(AnimationController.State.STOPPED)) {
-            state.getController().forceAnimationReset();
-            state.getController().setAnimation(RawAnimation.begin().then("animation.chomper.attack", Animation.LoopType.PLAY_ONCE));
-            this.swinging = false;
-        }
-
+        animationState.getController().setAnimation(RawAnimation.begin().then("animation.inch_worm.idle", Animation.LoopType.DEFAULT));
         return PlayState.CONTINUE;
     }
 
@@ -70,8 +60,6 @@ public class InchwormEntity extends Animal implements GeoEntity{
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
         controllers.add(new AnimationController(this, "controller",
                 0, this::predicate));
-        controllers.add(new AnimationController(this, "attackController",
-                0, this::attackPredicate));
     }
 
     @Override
