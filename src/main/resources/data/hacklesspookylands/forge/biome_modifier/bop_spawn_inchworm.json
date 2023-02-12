@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+
+  "biomes": "#biomesoplenty:bog",
+  "spawners": {
+    "type": "hacklesspookylands:inchworm",
+    "weight": 150,
+    "minCount": 3,
+    "maxCount": 5
+  }
+}
