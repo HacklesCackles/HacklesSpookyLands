@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:forest",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:dark_forest",
+    "minecraft:flower_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:meadow",
+    "minecraft:grove",
+
+    {
+      "id": "biomesoplenty:bog",
+      "required": false
+    }
+  ]
+}
