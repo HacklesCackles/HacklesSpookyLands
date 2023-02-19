@@ -14,7 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, HacklesSpookyLands.MOD_ID);
 
     public static final RegistryObject<Item> INCHWORM_SPAWN_EGG = ITEMS.register("inchworm_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntityTypes.INCHWORM,  0x22b341, 0x19732e,
+            () -> new ForgeSpawnEggItem(ModEntityTypes.INCHWORM,  0x5e8600, 0xb3ff00,
                     new Item.Properties()));
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);
