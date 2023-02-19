@@ -4,7 +4,7 @@
   "biomes": "#hacklesspookylands:tag_inchworm",
   "spawners": {
     "type": "hacklesspookylands:inchworm",
-    "weight": 150,
+    "weight": 5,
     "minCount": 2,
     "maxCount": 5
   }
