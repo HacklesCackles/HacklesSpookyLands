@@ -13,7 +13,7 @@ import javax.annotation.Nullable;
     public class InchwormRenderer extends GeoEntityRenderer<InchwormEntity> {
         public InchwormRenderer(EntityRendererProvider.Context renderManager) {
             super(renderManager, new InchwormModel());
-            this.shadowRadius = 0.2f;
+            this.shadowRadius = 0.12f;
         }
 
         @Override
